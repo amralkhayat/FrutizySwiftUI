@@ -15,6 +15,7 @@
 		DDEE99D227050CC50040F3AE /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE99D027050CC50040F3AE /* FruitCardView.swift */; };
 		DDEE99D527050CE10040F3AE /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE99D427050CE10040F3AE /* FruitModel.swift */; };
 		DDEE99D827050CFD0040F3AE /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE99D727050CFD0040F3AE /* FruitData.swift */; };
+		DDEE99DA2705138B0040F3AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEE99D92705138B0040F3AE /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DDEE99D027050CC50040F3AE /* FruitCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		DDEE99D427050CE10040F3AE /* FruitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		DDEE99D727050CFD0040F3AE /* FruitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		DDEE99D92705138B0040F3AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,6 @@
 				DDEE99D327050CCD0040F3AE /* Model */,
 				DDEE99CE27050CB20040F3AE /* View */,
 				DDEE99CB27050C7C0040F3AE /* App */,
-				DDEE99BC27050C530040F3AE /* FrutizyApp.swift */,
 				DDEE99C027050C550040F3AE /* Assets.xcassets */,
 				DDEE99C527050C550040F3AE /* Info.plist */,
 				DDEE99C227050C550040F3AE /* Preview Content */,
@@ -83,6 +84,8 @@
 		DDEE99CB27050C7C0040F3AE /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DDEE99BC27050C530040F3AE /* FrutizyApp.swift */,
+				DDEE99D92705138B0040F3AE /* ContentView.swift */,
 				DDEE99CC27050CA90040F3AE /* OnBoardingView.swift */,
 			);
 			path = App;
@@ -184,6 +187,7 @@
 			files = (
 				DDEE99D827050CFD0040F3AE /* FruitData.swift in Sources */,
 				DDEE99CD27050CA90040F3AE /* OnBoardingView.swift in Sources */,
+				DDEE99DA2705138B0040F3AE /* ContentView.swift in Sources */,
 				DDEE99D127050CC50040F3AE /* StartButtonView.swift in Sources */,
 				DDEE99D227050CC50040F3AE /* FruitCardView.swift in Sources */,
 				DDEE99D527050CE10040F3AE /* FruitModel.swift in Sources */,
