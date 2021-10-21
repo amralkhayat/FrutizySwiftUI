@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0CD8122721921B00BB580C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0CD8112721921B00BB580C /* SettingsView.swift */; };
 		DD2C4F5D2714EED600F896CA /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C4F5C2714EED600F896CA /* SourceLinkView.swift */; };
 		DD85BD39270A30EE00875C39 /* FruitzyDetailsView .swift in Sources */ = {isa = PBXBuildFile; fileRef = DD85BD38270A30EE00875C39 /* FruitzyDetailsView .swift */; };
 		DD85BD3B270A4CC800875C39 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD85BD3A270A4CC800875C39 /* FruitHeaderView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD0CD8112721921B00BB580C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DD2C4F5C2714EED600F896CA /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		DD85BD38270A30EE00875C39 /* FruitzyDetailsView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FruitzyDetailsView .swift"; sourceTree = "<group>"; };
 		DD85BD3A270A4CC800875C39 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD0CD810272191E400BB580C /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				DD0CD8112721921B00BB580C /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
 		DD2C4F5A2714EE8400F896CA /* FruitzyDetailsView */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		DDEE99CE27050CB20040F3AE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DD0CD810272191E400BB580C /* SettingsView */,
 				DD2C4F5B2714EEA600F896CA /* OnboardingViews */,
 				DD2C4F5A2714EE8400F896CA /* FruitzyDetailsView */,
 				DDEE99DB270516300040F3AE /* FruitRowView.swift */,
@@ -228,6 +239,7 @@
 				DDEE99D527050CE10040F3AE /* FruitModel.swift in Sources */,
 				DD85BD39270A30EE00875C39 /* FruitzyDetailsView .swift in Sources */,
 				DDEE99BD27050C530040F3AE /* FrutizyApp.swift in Sources */,
+				DD0CD8122721921B00BB580C /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
